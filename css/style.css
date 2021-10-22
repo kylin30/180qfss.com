@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #ebecf0;
+  min-width: 1240px;
+}
+#jx3-top-navi-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#jx3-top-navi-bar ~ .ie-warning {
+  padding-top: 80px;
+}
+.page {
+  width: 1200px;
+  margin: 0 auto;
+}
+.blank {
+  clear: both;
+  overflow: hidden;
+  display: block;
+  font-size: 0;
+  line-height: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+.public_footer {
+  background-color: #000!important;
+}
+#xoyo-top-navi-bar {
+  top: 0;
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */
+<!--
+.rollBox{width:825px;overflow:hidden;padding:0px 0 0px 0px;margin:0 auto;  height:316px}
+.rollBox .LeftBotton{height:316px;width:20px;background:url(../images/button.gif) no-repeat 0px 0;overflow:hidden;float:left;display:inline;margin:0px 0 0 0;cursor:pointer;}
+.rollBox .RightBotton{height:316px;width:20px;background:url(../images/button.gif) no-repeat -20px 0;overflow:hidden;float:left;display:inline;margin:0px 0 0 0;cursor:pointer;}
+.rollBox .Cont{width:780px;overflow:hidden;float:left;}
+.rollBox .ScrCont{width:10000000px;}
+.rollBox .Cont .pic{width:262px;float:left;text-align:center;}
+.rollBox .Cont .pic img{padding:0px;display:block;margin:0 auto; width:255px; height:auto}
+
+.rollBox #List1,.rollBox #List2{float:left;}
+-->
