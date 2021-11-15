@@ -1,68 +1,68 @@
-document.write('<link rel="stylesheet" type="text/css" href="'+CopyRightcss+'">');
+document.write('<link rel="stylesheet" type="text/css" href="' + CopyRightcss + '">');
 
 var logoPath = 'http://static.sdg-china.com/copyright/';
 //var logoPath = '';
-var subLogo = logoPath+'pic/cq/logo.jpg';
+var subLogo = logoPath + 'pic/cq/logo.jpg';
 
-if(CopyRightcss.indexOf('black') != -1){
-	
+if (CopyRightcss.indexOf('black') != -1) {
+
 }
 
 var _sdgCopyrightLink = '#';
 var _sdgCopyrightHtml = '';
-_sdgCopyrightHtml +=''
+_sdgCopyrightHtml += ''
 
-+'<div class="SDGCOPYRIGHT-wrap20130425">' 
+   + '<div class="SDGCOPYRIGHT-wrap20130425">'
 
-//Ê¢´óÓÎÏ·LOGOºÍºÏ×÷Ã½ÌåLOGO
-+'		<div class="SDGCOPYRIGHT-logo" style="width:200px;">'
-+'			<a href="#" target="_blank" title="#" ><img src="images/bomlogo.png"></a>'
-+'		</div>'
-
-
-//°æÈ¨Ö÷ÌåĞÅÏ¢
-+'		<div class="SDGCOPYRIGHT-con">'
+   //ç››å¤§æ¸¸æˆLOGOå’Œåˆä½œåª’ä½“LOGO
+   + '		<div class="SDGCOPYRIGHT-logo" style="width:200px;">'
+   + '			<a href="#" target="_blank" title="#" ><img src="images/bomlogo.png"></a>'
+   + '		</div>'
 
 
-//Ã¿¸öÏîÄ¿×é×Ô¼ºµÄ°æÈ¨ºÅ
-+'			<p>'
-+'				<span class="SDGCOPYRIGHT-pr3">µÖÖÆ²»Á¼ÓÎÏ· ¾Ü¾øµÁ°æÓÎÏ· ×¢Òâ×ÔÎÒ±£»¤ ½÷·ÀÊÜÆ­ÉÏµ± ÊÊ¶ÈÓÎÏ·ÒæÄÔ ³ÁÃÔÓÎÏ·ÉËÉí ºÏÀí°²ÅÅÊ±¼ä ÏíÊÜ½¡¿µÉú»î</span>'
-+'			</p>'
-
-//¹«Ë¾Í³Ò»µÄ°æÈ¨ºÅ
-+'			<p>'
-+'				<span class="SDGCOPYRIGHT-pr3">All rights reserved. Çå·çÊ¢ÊÀ  °æÈ¨ËùÓĞ ±¾ÓÎÏ·ÓÉ¡¾Çå·çÊ¢ÊÀ¡¿¿ª·¢ÔËÓª  ICPĞí¿ÉÖ¤£ºÔ¥ICP±¸13013238ºÅ-1</span>'
-+'			</p>'
-
-+'		</div>'
-//ÓÒ²àÍøÂç¾¯²ì3¸öÍ¼±ê
-+'		<div class="SDGCOPYRIGHT-priv">'
-+'<img src="images/bailu123logo.png" border=0>'
-
-+'		</div>'
+   //ç‰ˆæƒä¸»ä½“ä¿¡æ¯
+   + '		<div class="SDGCOPYRIGHT-con">'
 
 
-+'</div>'
+   //æ¯ä¸ªé¡¹ç›®ç»„è‡ªå·±çš„ç‰ˆæƒå·
+   + '			<p>'
+   + '				<span class="SDGCOPYRIGHT-pr3">æŠµåˆ¶ä¸è‰¯æ¸¸æˆ æ‹’ç»ç›—ç‰ˆæ¸¸æˆ æ³¨æ„è‡ªæˆ‘ä¿æŠ¤ è°¨é˜²å—éª—ä¸Šå½“ é€‚åº¦æ¸¸æˆç›Šè„‘ æ²‰è¿·æ¸¸æˆä¼¤èº« åˆç†å®‰æ’æ—¶é—´ äº«å—å¥åº·ç”Ÿæ´»</span>'
+   + '			</p>'
+
+   //å…¬å¸ç»Ÿä¸€çš„ç‰ˆæƒå·
+   + '			<p>'
+   + '				<span class="SDGCOPYRIGHT-pr3">All rights reserved. æ¸…é£ç››ä¸–  ç‰ˆæƒæ‰€æœ‰ æœ¬æ¸¸æˆç”±ã€æ¸…é£ç››ä¸–ã€‘å¼€å‘è¿è¥  ICPè®¸å¯è¯ï¼šè±«ICPå¤‡13013238å·-1</span>'
+   + '			</p>'
+
+   + '		</div>'
+   //å³ä¾§ç½‘ç»œè­¦å¯Ÿ3ä¸ªå›¾æ ‡
+   + '		<div class="SDGCOPYRIGHT-priv">'
+   + '<img src="images/bailu123logo.png" border=0>'
+
+   + '		</div>'
+
+
+   + '</div>'
 
 document.write(_sdgCopyrightHtml);
 
-//Í³Ò»¹ÙÍø±êÇ©
-(function(d, s) {
+//ç»Ÿä¸€å®˜ç½‘æ ‡ç­¾
+(function (d, s) {
    var js = d.createElement(s);
    var sc = d.getElementsByTagName(s)[0];
-   js.src="http://static.sdg-china.com/copyright/js/copyrightcommon.js";
+   js.src = "http://static.sdg-china.com/copyright/js/copyrightcommon.js";
    sc.parentNode.appendChild(js);
 }(document, "script"));
 
-//¼à¿Ø´úÂë
-(function(d, s) {
-  window.config ={
-  bw_enabled:false,
-  bw_base:"http://static.sdg-china.com/yxzm/pic/",
-  siteid:"SDG-08194-01"
-};
+//ç›‘æ§ä»£ç 
+(function (d, s) {
+   window.config = {
+      bw_enabled: false,
+      bw_base: "http://static.sdg-china.com/yxzm/pic/",
+      siteid: "SDG-08194-01"
+   };
    var js = d.createElement(s);
    var sc = d.getElementsByTagName(s)[0];
-   js.src="http://static.sdg-china.com/yxzm/js/act.js";
+   js.src = "http://static.sdg-china.com/yxzm/js/act.js";
    sc.parentNode.insertBefore(js, sc);
 }(document, "script"));
